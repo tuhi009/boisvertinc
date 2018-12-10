@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+#heroimg{
+    
+}
+
+#clients{
+    background-color: black;
+}
+
+.section-title{
+    text-align: center;
+    padding-bottom: 30px; 
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+@media only screen and (min-width: 992px) {
+    #heroimg{
+        padding: 8%;
+        padding-left: 22%;
+    }
+    #heroimg > h2{
+        width: 50%
+    }
+    #emmy{
+        padding: 6%;
+
+    }
+} 
+
+@media only screen and (max-width: 600px) {
+    #heroimg > h1{
+        font-size: 4.5rem;
+    }
+
+} 
