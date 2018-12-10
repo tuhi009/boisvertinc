@@ -34,8 +34,9 @@ h1{
     #heroimg > h2{
         width: 50%
     }
-    #emmy{
-        padding: 6%;
+    .mid-banner{
+        padding: 8%;
+        padding-left: 22%;
 
     }
 } 
