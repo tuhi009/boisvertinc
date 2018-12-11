@@ -110,5 +110,13 @@ nav{
     #heroimg > h1{
         font-size: 4.5rem;
     }
-
 } 
+
+    
+@media only screen and (min-width: 600px) {
+
+    .row-two{
+            padding-top: 20px;
+        }
+
+    } 
