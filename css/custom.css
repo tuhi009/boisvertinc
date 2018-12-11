@@ -26,6 +26,10 @@ h1{
     font-size: 45px;
 }
 
+#tools img{
+    width: 50%;
+}
+
 
 /* FOR PC */
 @media only screen and (min-width: 992px) {
@@ -44,6 +48,9 @@ h1{
     .portfolios{
         padding-left: 300px;
         padding-right: 300px;
+    }
+    .row-two{
+        padding-top: 20px;
     }
     
 } 
