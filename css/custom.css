@@ -27,6 +27,7 @@ h1{
 }
 
 
+/* FOR PC */
 @media only screen and (min-width: 992px) {
     #heroimg{
         padding: 8%;
@@ -40,8 +41,14 @@ h1{
         padding-left: 22%;
 
     }
+    .portfolios{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    
 } 
 
+/* FOR MOBILE */
 @media only screen and (max-width: 600px) {
     #heroimg > h1{
         font-size: 4.5rem;
