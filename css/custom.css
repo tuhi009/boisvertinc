@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
 
 p{
     font-family: 'Open Sans', sans-serif;
@@ -13,6 +14,15 @@ h2{
     font-family: 'Open Sans', sans-serif;
 }
 
+nav{
+    background-color:#131416;
+}
+
+.navbar-brand{
+    font-family: 'Yellowtail', cursive;
+    font-size: 24px;
+    font-weight: 400;
+}
 
 #clients{
     background-color: black;
@@ -31,8 +41,13 @@ h2{
 }
 
 
+
 /* FOR PC */
 @media only screen and (min-width: 992px) {
+    nav{
+        justify-content: space-between;
+        
+    }
     #heroimg{
         /* padding: 8%;*/
         padding-left: 22%; 
