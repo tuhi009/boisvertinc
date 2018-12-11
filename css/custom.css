@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700');
 
 p{
     font-family: 'Open Sans', sans-serif;
@@ -51,7 +50,7 @@ h2{
         padding-bottom: 20px;
     }
     .mid-banner{
-        padding: 8%;
+        padding: 7%;
         padding-left: 22%;
 
     }
@@ -64,7 +63,7 @@ h2{
     }
     
     #contact{
-        padding: 8%;
+        padding: 7%;
         padding-left: 22%; 
         padding-right: 22%; 
     }
