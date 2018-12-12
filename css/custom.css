@@ -24,6 +24,16 @@ nav{
     font-weight: 400;
 }
 
+.nav-text{
+    text-transform: uppercase; 
+    font-size: 25px; 
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link  {
+    color:#ff3f00;
+}
+
 #clients{
     background-color: black;
 }
