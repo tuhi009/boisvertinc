@@ -6,7 +6,7 @@ p{
     font-family: 'Open Sans', sans-serif;
 }
 
-h1{
+h1,h3{
     font-family: 'Oswald', sans-serif;
 }
 
@@ -14,9 +14,17 @@ h2{
     font-family: 'Open Sans', sans-serif;
 }
 
+topnav{
+    background-color:white;
+}
+
+
 nav{
     background-color:#131416;
 }
+
+
+
 
 .navbar-brand{
     font-family: 'Yellowtail', cursive;
@@ -32,6 +40,9 @@ nav{
 }
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link  {
     color:#ff3f00;
+}
+.jumbotron{
+    border-radius: 0px;
 }
 
 #clients{
@@ -73,6 +84,9 @@ nav{
 
 /* FOR PC */
 @media only screen and (min-width: 992px) {
+    body{
+        padding-top: 105px;
+    }
     nav{
         justify-content: space-between;
         
@@ -118,19 +132,27 @@ nav{
 
 /* FOR MOBILE */
 @media only screen and (max-width: 600px) {
+    body{
+        padding-top: 90px;
+    }
     #heroimg > h1{
+        font-size: 3.5rem;
+    }
+
+    .no-mobile{
+        display: none;
+    }
+    .row-two{
+        padding-top: 20px;
+    }
+
+    .display-2{
         font-size: 4.5rem;
     }
+    
 } 
 
-    
-@media only screen and (min-width: 600px) {
 
-    .row-two{
-            padding-top: 20px;
-        }
-
-    } 
 
 
 /* HOver effets */
