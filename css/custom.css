@@ -95,8 +95,13 @@ nav{
         /* padding: 8%;*/
         padding-left: 22%; 
     }
-    #heroimg > h1{
-        font-size: 10.5rem;
+    .title-1{
+        font-size: 13.5rem;
+        letter-spacing: 5.2px;
+        line-height: 1.0;
+    }
+    .title-2{
+        font-size: 8.5rem;
         letter-spacing: 5.2px;
         line-height: 1.0;
     }
@@ -137,8 +142,15 @@ nav{
     body{
         padding-top: 90px;
     }
-    #heroimg > h1{
-        font-size: 3.5rem;
+    .title-1{
+        font-size: 4rem ;
+        letter-spacing: 5.2px;
+        line-height: 1.0;
+    }
+    .title-2{
+        font-size: 2.5rem;
+        letter-spacing: 5.2px;
+        line-height: 1.0;
     }
 
     .no-mobile{
@@ -154,6 +166,8 @@ nav{
     .tools-row{
         padding: 0px;
     }
+
+
     
 } 
 
@@ -161,6 +175,17 @@ nav{
 @media only screen and (min-width: 768px) {
     body{
         padding-top: 80px;
+    }
+
+    .title-1{
+        font-size: 8rem;
+        letter-spacing: 5.2px;
+        line-height: 1.0;
+    }
+    .title-2{
+        font-size: 5rem;
+        letter-spacing: 5.2px;
+        line-height: 1.0;
     }
 
 } 
@@ -200,7 +225,7 @@ nav{
     }
     
     .hovereffect h2 {
-    top: 30%;
+    top: 45%;
     text-transform:uppercase;
     color:#fff;
     text-align:center;
@@ -216,7 +241,7 @@ nav{
     }
 
     .hovereffect p {
-        top: 30%;
+        top: 50%;
         text-transform: capitalize;
         color:#fff;
         text-align:center;
