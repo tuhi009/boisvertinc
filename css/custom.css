@@ -225,12 +225,12 @@ nav{
     }
     
     .hovereffect h2 {
-    top: 45%;
+    top: 40%;
     text-transform:uppercase;
     color:#fff;
     text-align:center;
     position:relative;
-    font-size:17px;
+    font-size:20px;
     background:rgba(0,0,0,0.6);
     -webkit-transform:translatey(-100px);
     -ms-transform:translatey(-100px);
@@ -241,12 +241,12 @@ nav{
     }
 
     .hovereffect p {
-        top: 50%;
+        top: 45%;
         text-transform: capitalize;
         color:#fff;
         text-align:center;
         position:relative;
-        font-size:14px;
+        font-size:18px;
         background:rgba(0,0,0,0.6);
         -webkit-transform:translatey(-100px);
         -ms-transform:translatey(-100px);
