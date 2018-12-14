@@ -87,7 +87,7 @@ nav{
     }
 
     section:before{
-        height: 90px;
+        height: 84px;
         content: "";
         display:block;
         
