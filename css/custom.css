@@ -24,13 +24,6 @@ nav{
 }
 
 
-section:before{
-    height: 105px;
-    content: "";
-    display:block;
-    
-}
-
 .navbar-brand{
     font-family: 'Yellowtail', cursive;
     font-size: 24px;
@@ -92,6 +85,13 @@ section:before{
     body{
         padding-top: 90px;
     }
+
+    section:before{
+        height: 90px;
+        content: "";
+        display:block;
+        
+    }
     .title-1{
         font-size: 3rem ;
         letter-spacing: 5.2px;
@@ -148,6 +148,12 @@ section:before{
     }
     nav{
         justify-content: space-between;
+        
+    }
+    section:before{
+        height: 105px;
+        content: "";
+        display:block;
         
     }
     #heroimg{
