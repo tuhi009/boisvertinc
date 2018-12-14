@@ -24,7 +24,12 @@ nav{
 }
 
 
-
+section:before{
+    height: 105px;
+    content: "";
+    display:block;
+    
+}
 
 .navbar-brand{
     font-family: 'Yellowtail', cursive;
@@ -82,6 +87,60 @@ nav{
 
 
 
+/* FOR MOBILE */
+@media only screen and (max-width: 600px) {
+    body{
+        padding-top: 90px;
+    }
+    .title-1{
+        font-size: 3rem ;
+        letter-spacing: 5.2px;
+        line-height: 1.0;
+    }
+    .title-2{
+        font-size: 2rem;
+        letter-spacing: 5.2px;
+        line-height: 1.0;
+    }
+
+    .no-mobile{
+        display: none;
+    }
+    .row-two{
+        padding-top: 0px;
+    }
+
+    .display-2{
+        font-size: 4.5rem;
+    }
+    .tools-row{
+        padding: 0px;
+    }
+
+
+    
+} 
+
+/* FOR TABLET */
+@media only screen and (min-width: 768px) {
+    body{
+        padding-top: 80px;
+    }
+
+    .title-1{
+        font-size: 8rem;
+        letter-spacing: 5.2px;
+        line-height: 1.0;
+    }
+    .title-2{
+        font-size: 5rem;
+        letter-spacing: 5.2px;
+        line-height: 1.0;
+    }
+
+} 
+
+
 /* FOR PC */
 @media only screen and (min-width: 992px) {
     body{
@@ -133,59 +192,6 @@ nav{
         padding: 7%;
         padding-left: 22%; 
         padding-right: 22%; 
-    }
-
-} 
-
-/* FOR MOBILE */
-@media only screen and (max-width: 600px) {
-    body{
-        padding-top: 90px;
-    }
-    .title-1{
-        font-size: 3.4rem ;
-        letter-spacing: 5.2px;
-        line-height: 1.0;
-    }
-    .title-2{
-        font-size: 2rem;
-        letter-spacing: 5.2px;
-        line-height: 1.0;
-    }
-
-    .no-mobile{
-        display: none;
-    }
-    .row-two{
-        padding-top: 0px;
-    }
-
-    .display-2{
-        font-size: 4.5rem;
-    }
-    .tools-row{
-        padding: 0px;
-    }
-
-
-    
-} 
-
-/* FOR TABLET */
-@media only screen and (min-width: 768px) {
-    body{
-        padding-top: 80px;
-    }
-
-    .title-1{
-        font-size: 8rem;
-        letter-spacing: 5.2px;
-        line-height: 1.0;
-    }
-    .title-2{
-        font-size: 5rem;
-        letter-spacing: 5.2px;
-        line-height: 1.0;
     }
 
 } 
