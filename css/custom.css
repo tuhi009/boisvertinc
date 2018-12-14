@@ -225,7 +225,7 @@ nav{
     }
     
     .hovereffect h2 {
-    top: 40%;
+    top: 36%;
     text-transform:uppercase;
     color:#fff;
     text-align:center;
@@ -240,7 +240,9 @@ nav{
     padding:10px;
     }
 
-    .hovereffect p {
+  
+
+    /* .hovereffect p {
         top: 45%;
         text-transform: capitalize;
         color:#fff;
@@ -254,7 +256,9 @@ nav{
         -webkit-transition:all .2s ease-in-out;
         transition:all .2s ease-in-out;
         padding:10px;
-        }
+        } */
+
+ 
     
     .hovereffect a.info {
     text-decoration:none;
