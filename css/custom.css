@@ -122,6 +122,13 @@ nav{
         padding-bottom: 30%;
 
     }
+    #contact{
+        /* padding: 7%; */
+        padding-top: 30%;
+        /* padding-left: 22%; 
+        padding-right: 22%;  */
+        padding-bottom: 30%;
+    }
 
 
     
@@ -149,6 +156,7 @@ nav{
         padding-bottom: 7%;
 
     }
+    
 
 } 
 
@@ -208,9 +216,11 @@ nav{
     }
 
     #contact{
-        padding: 7%;
+        /* padding: 7%; */
+        padding-top: 7%;
         padding-left: 22%; 
         padding-right: 22%; 
+        padding-bottom: 7%;
     }
 
 } 
