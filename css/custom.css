@@ -212,7 +212,7 @@ nav{
     
     #heroimg > h2{
         font-weight: bold;
-        font-size: 3rem;
+        font-size: 2vw;
         padding-top: 50px; 
         padding-bottom: 20px;
     }
@@ -270,6 +270,13 @@ nav{
     #heroimg{
         /* padding: 8%;*/
         padding-left: 32%; 
+    }
+
+    #heroimg > h2{
+        font-weight: bold;
+        font-size: 2.5vw;
+        padding-top: 50px; 
+        padding-bottom: 20px;
     }
 }
 
