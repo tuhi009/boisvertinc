@@ -74,16 +74,16 @@ nav{
 }
 
 #tools img{
-    width: 80%;
+    width: 385px;
 }
 
 .bg-color1{
     background-image: url("../img/background/996633.svg");
-    /* background-repeat: no-repeat;
+     background-repeat: no-repeat;
     background-size: cover;
     height: 388px; 
     background-attachment: fixed;
-    background-position: center; */
+    background-position: center; 
 }
 .bg-color2{
     background-image: url("../img/background/cc6633-01.svg");
@@ -235,6 +235,14 @@ nav{
         content: "";
         display:block;
         
+    }
+
+    .align-right{
+        text-align: right;
+    }
+
+    .align-left{
+        text-align: left;
     }
    
     .title-1{
