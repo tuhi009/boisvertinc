@@ -78,7 +78,7 @@ nav{
 }
 
 .bg-color1{
-    background-image: url("../img/background/996633.svg");
+    background-image: url("../img/background/900x380_a.jpg");
      background-repeat: no-repeat;
     background-size: cover;
     height: 388px; 
@@ -86,7 +86,7 @@ nav{
     background-position: center; 
 }
 .bg-color2{
-    background-image: url("../img/background/cc6633-01.svg");
+    background-image: url("../img/background/900x380_b.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 388px; 
@@ -94,7 +94,7 @@ nav{
     background-position: center;
 }
 .bg-color3{
-    background-image: url("../img/background/ff9966-01.svg");
+    background-image: url("../img/background/900x380_c.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 388px; 
