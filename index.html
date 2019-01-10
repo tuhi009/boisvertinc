@@ -149,12 +149,12 @@
         
             <div class="row tools-row " >
                 
-                <div class="col-sm-6 col-md-6 align-right bg-color2" >
+                <div id="skill1" class="col-sm-6 col-md-6 align-right" >
                     <img data-src="img/tools/ICON01.svg"  class="img-fluid lazyload" alt="Responsive image">
                 </div>
             
             
-                <div class="col-sm-6 col-md-6 align-left bg-color3" >
+                <div id="skill2" class="col-sm-6 col-md-6 align-left" >
                     <img data-src="img/tools/ICON02.svg"  class="img-fluid lazyload" alt="Responsive image">
                 </div>
                
@@ -164,31 +164,31 @@
 
             <div class="row tools-row">
                 
-                <div class="col-sm-6 col-md-6 align-right bg-color3">
+                <div id="skill3" class="col-sm-6 col-md-6 align-right ">
                     <img data-src="img/tools/ICON03.svg" class="img-fluid lazyload" alt="Responsive image">
 
                 </div>
-                <div class="col-sm-6 col-md-6 align-left bg-color1">
+                <div id="skill4" class="col-sm-6 col-md-6 align-left ">
                     <img data-src="img/tools/ICON04.svg" class="img-fluid lazyload" alt="Responsive image">
                 </div>
             </div>
             <div class="row tools-row">
                
-                <div class="col-sm-6 col-md-6 align-right bg-color2">
+                <div id="skill5" class="col-sm-6 col-md-6 align-right ">
                     <img data-src="img/tools/ICON05.svg" class="img-fluid lazyload" alt="Responsive image">
 
                 </div>
-                <div class="col-sm-6 col-md-6 align-left bg-color3">
+                <div id="skill6" class="col-sm-6 col-md-6 align-left ">
                     <img data-src="img/tools/ICON06.svg" class="img-fluid lazyload" alt="Responsive image">
                 </div>
             </div>
-            <div class="row tools-row">
+            <div id="skill7" class="row tools-row">
                 
-                <div class="col-sm-6 col-md-6 align-right bg-color3">
+                <div class="col-sm-6 col-md-6 align-right ">
                     <img data-src="img/tools/ICON07.svg" class="img-fluid lazyload" alt="Responsive image">
 
                 </div>
-                <div class="col-sm-6 col-md-6 align-left bg-color1">
+                <div id="skill8" class="col-sm-6 col-md-6 align-left ">
                     <img data-src="img/tools/ICON08.svg" class="img-fluid lazyload" alt="Responsive image">
                 </div>
                 
@@ -509,7 +509,63 @@
             $('.navbar-collapse').collapse('hide');
         });
 
-        var divId;
+// Tools background changing script //
+        $(document).ready(function(){
+
+            var d = new Date();
+            var n = d.getHours();
+
+           
+
+            if (n < 6){
+                $("#skill1").addClass("bg-color1");
+                $("#skill2").addClass("bg-color2");
+                $("#skill3").addClass("bg-color3");
+                $("#skill4").addClass("bg-color1");
+                $("#skill5").addClass("bg-color2");
+                $("#skill6").addClass("bg-color3");
+                $("#skill7").addClass("bg-color1");
+                $("#skill8").addClass("bg-color2");
+            }
+            
+            if (n >= 6 && n < 12){
+                
+                $("#skill1").addClass("bg-color2");
+                $("#skill2").addClass("bg-color3");
+                $("#skill3").addClass("bg-color1");
+                $("#skill4").addClass("bg-color2");
+                $("#skill5").addClass("bg-color3");
+                $("#skill6").addClass("bg-color1");
+                $("#skill7").addClass("bg-color2");
+                $("#skill8").addClass("bg-color3");
+            }
+
+            
+
+            if (n >= 12 && n<18){
+                $("#skill1").addClass("bg-color3");
+                $("#skill2").addClass("bg-color1");
+                $("#skill3").addClass("bg-color2");
+                $("#skill4").addClass("bg-color3");
+                $("#skill5").addClass("bg-color1");
+                $("#skill6").addClass("bg-color2");
+                $("#skill7").addClass("bg-color3");
+                $("#skill8").addClass("bg-color1");
+            }
+
+            if (n >= 18){
+                $("#skill1").addClass("bg-color1");
+                $("#skill2").addClass("bg-color2");
+                $("#skill3").addClass("bg-color3");
+                $("#skill4").addClass("bg-color1");
+                $("#skill5").addClass("bg-color2");
+                $("#skill6").addClass("bg-color3");
+                $("#skill7").addClass("bg-color1");
+                $("#skill8").addClass("bg-color2");
+            }
+
+
+        });
 
 
 
