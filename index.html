@@ -513,11 +513,11 @@
         $(document).ready(function(){
 
             var d = new Date();
-            var n = d.getHours();
+            var time = d.getUTCHours();
 
-           
+            time = time - 5;
 
-            if (n < 6){
+            if (time < 6){
                 $("#skill1").addClass("bg-color1");
                 $("#skill2").addClass("bg-color2");
                 $("#skill3").addClass("bg-color3");
@@ -528,7 +528,7 @@
                 $("#skill8").addClass("bg-color2");
             }
             
-            if (n >= 6 && n < 12){
+            if (time >= 6 && time < 12){
                 
                 $("#skill1").addClass("bg-color2");
                 $("#skill2").addClass("bg-color3");
@@ -542,7 +542,7 @@
 
             
 
-            if (n >= 12 && n<18){
+            if (time >= 12 && time<18){
                 $("#skill1").addClass("bg-color3");
                 $("#skill2").addClass("bg-color1");
                 $("#skill3").addClass("bg-color2");
@@ -553,7 +553,7 @@
                 $("#skill8").addClass("bg-color1");
             }
 
-            if (n >= 18){
+            if (time >= 18){
                 $("#skill1").addClass("bg-color1");
                 $("#skill2").addClass("bg-color2");
                 $("#skill3").addClass("bg-color3");
