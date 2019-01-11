@@ -81,7 +81,7 @@ nav{
     background-image: url("../img/background/900x380_a.jpg");
      background-repeat: no-repeat;
     background-size: cover;
-    height: 388px; 
+    height: 100%; 
     background-attachment: fixed;
     background-position: center; 
 }
@@ -89,7 +89,7 @@ nav{
     background-image: url("../img/background/900x380_b.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 388px; 
+    height: 100%; 
     background-attachment: fixed;
     background-position: center;
 }
@@ -97,7 +97,7 @@ nav{
     background-image: url("../img/background/900x380_c.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 388px; 
+    height: 100%; 
     background-attachment: fixed;
     background-position: center;
 }
