@@ -83,7 +83,7 @@
 
 
 
-    <div id="heroimg" class="jumbotron" style="margin-bottom: 0px;background-color: #cc3300; border-radius: 0px,">
+    <div id="heroimg" class="jumbotron"  style="margin-bottom: 0px; border-radius: 0px,">
         <div class="container">
             <h1 class="title-1 " style="color:white;font-weight: 600">Boisvertinc</h1>
             <h1 class="title-2 " style="color:white;font-weight: 600; padding-bottom: 20px;">The Portfolio</h1>
@@ -519,6 +519,7 @@
             time = time - 5;
 
             if (time < 6){
+                $("#heroimg").addClass("bg-heroimg-img1");
                 $("#skill1").addClass("bg-digitalart-img1");
                 $("#skill2").addClass("bg-3d-img1");
                 $("#skill3").addClass("bg-color3");
@@ -530,7 +531,7 @@
             }
             
             if (time >= 6 && time < 12){
-                
+                $("#heroimg").addClass("bg-heroimg-img2");
                 $("#skill1").addClass("bg-digitalart-img2");
                 $("#skill2").addClass("bg-3d-img2");
                 $("#skill3").addClass("bg-color1");
@@ -544,6 +545,7 @@
             
 
             if (time >= 12 && time<18){
+                $("#heroimg").addClass("bg-heroimg-img3");
                 $("#skill1").addClass("bg-digitalart-img3");
                 $("#skill2").addClass("bg-3d-img3");
                 $("#skill3").addClass("bg-color2");
@@ -555,6 +557,7 @@
             }
 
             if (time >= 18){
+                $("#heroimg").addClass("bg-heroimg-img4");
                 $("#skill1").addClass("bg-digitalart-img1");
                 $("#skill2").addClass("bg-3d-img1");
                 $("#skill3").addClass("bg-color3");

@@ -77,6 +77,42 @@ nav{
     width: 388px;
 }
 
+.bg-heroimg-img1{
+    background-image: url("../img/background/HEADER01A.svg");
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%; 
+   background-attachment: fixed;
+   background-position: center; 
+}
+
+.bg-heroimg-img2{
+    background-image: url("../img/background/HEADER02B.svg");
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%; 
+   background-attachment: fixed;
+   background-position: center; 
+}
+
+.bg-heroimg-img3{
+    background-image: url("../img/background/HEADER03C.svg");
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%; 
+   background-attachment: fixed;
+   background-position: center; 
+}
+
+.bg-heroimg-img4{
+    background-image: url("../img/background/HEADER04D.svg");
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%; 
+   background-attachment: fixed;
+   background-position: center; 
+}
+
 .bg-digitalart-img1{
     background-image: url("../img/background/Digital Art - A.png");
      background-repeat: no-repeat;
