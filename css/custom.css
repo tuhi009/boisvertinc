@@ -77,122 +77,17 @@ nav{
     width: 388px;
 }
 
-.bg-heroimg-img1{
-    background-image: url("../img/background/HEADER01A.svg");
-    background-repeat: no-repeat;
+.parallax-effect{
+    
+   background-repeat: no-repeat;
    background-size: cover;
    height: 100%; 
    background-attachment: fixed;
    background-position: center; 
 }
 
-.bg-heroimg-img2{
-    background-image: url("../img/background/HEADER02B.svg");
-    background-repeat: no-repeat;
-   background-size: cover;
-   height: 100%; 
-   background-attachment: fixed;
-   background-position: center; 
-}
-
-.bg-heroimg-img3{
-    background-image: url("../img/background/HEADER03C.svg");
-    background-repeat: no-repeat;
-   background-size: cover;
-   height: 100%; 
-   background-attachment: fixed;
-   background-position: center; 
-}
-
-.bg-heroimg-img4{
-    background-image: url("../img/background/HEADER04D.svg");
-    background-repeat: no-repeat;
-   background-size: cover;
-   height: 100%; 
-   background-attachment: fixed;
-   background-position: center; 
-}
-
-.bg-digitalart-img1{
-    background-image: url("../img/background/Digital Art - A.png");
-     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center; 
-}
-
-.bg-digitalart-img2{
-    background-image: url("../img/background/Digital Art - B.png");
-     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center; 
-}
-
-.bg-digitalart-img3{
-    background-image: url("../img/background/Digital Art - C.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center; 
-}
-
-.bg-3d-img1{
-    background-image: url("../img/background/3D - A.png");
-     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center; 
-}
-
-.bg-3d-img2{
-    background-image: url("../img/background/3D - B.png");
-     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center; 
-}
-
-.bg-3d-img3{
-    background-image: url("../img/background/3D - C.png");
-     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center; 
-}
 
 
-
-.bg-color1{
-    background-image: url("../img/background/900x380_a.jpg");
-     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center; 
-}
-.bg-color2{
-    background-image: url("../img/background/900x380_b.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center;
-}
-.bg-color3{
-    background-image: url("../img/background/900x380_c.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center;
-}
 
 #tv-shows img{
     width: 70%
