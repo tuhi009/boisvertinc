@@ -83,9 +83,9 @@
 
 
 
-    <div id="heroimg" class="jumbotron parallax-effect"  style="margin-bottom: 0px; border-radius: 0px,">
+    <div id="heroimg" class="jumbotron parallax-effect"  style="margin-bottom: 0px; border-radius: 0px;background-color: #0e0e0e;">
         <div class="container">
-            <h1 class="title-1 " style="color:white;font-weight: 600">Boisvertinc</h1>
+            <h1 class="title-1 " style="color:#f69800;font-weight: 600">Boisvertinc</h1>
             <h1 class="title-2 " style="color:white;font-weight: 600; padding-bottom: 20px;">The Portfolio</h1>
             <h2 style="color: white; ">Contact me for the following services: <br /><br />- Art direction <br />-
                 Motion
@@ -93,9 +93,14 @@
         </div>
     </div>
 
+    <div id="emmy" class="jumbotron" style="background-color: #0e0e0e;">
+        <h1 class="display-2" style="color:white;font-weight: 700; text-align: center;"><span style="color:#f69800;">I am a 2017</span> <ins class="emmy-word">Emmy</ins><br />award-winning Designer!</h1>
+
+    </div>
+
     <div id="clients" class="container-fluid" style=" padding-top: 40px; padding-bottom: 40px;">
         <div class="container">
-            <h1 class="section-title" style=" color: white; ">MY PAST CLIENTS MADE ME WHO I AM TODAY!</h1>
+            <h1 class="section-title" style=" color: white; "><span style=" color: #f69800; font-size: 120%">MY PAST CLIENTS MADE ME</span><br/>WHO I AM TODAY!</h1>
             <div class="row" style="text-align: center;">
                 <div class="col-sm-12 col-md-3 pb-3">
                     <img data-src="img/clients/COMCAST_1.svg" class="img-fluid lazyload" alt="Responsive image" width="265"
@@ -136,10 +141,7 @@
         </div>
     </div>
 
-    <div id="emmy" class="jumbotron mid-banner" style="background-color: white;">
-        <h1 class="display-2" style="color:black;font-weight: 700">I am a 2017 <ins class="emmy-word">Emmy</ins><br />award-winning<br />Designer!</h1>
-
-    </div>
+ 
 
 
     <section id="tools" class="container-fluid" style="background-color: black; padding-bottom: 80px">
@@ -182,9 +184,9 @@
                     <img data-src="img/tools/ICON06.svg" class="img-fluid lazyload" alt="Responsive image">
                 </div>
             </div>
-            <div id="skill7" class="row tools-row parallax-effect">
+            <div class="row tools-row">
                 
-                <div class="col-sm-6 col-md-6 align-right ">
+                <div id="skill7" class="col-sm-6 col-md-6 align-right parallax-effect">
                     <img data-src="img/tools/ICON07.svg" class="img-fluid lazyload" alt="Responsive image">
 
                 </div>
@@ -519,7 +521,7 @@
             time = time - 5;
 
             if (time < 6){
-                $("#heroimg").css("background-image", "url('img/background/HEADER01A.svg')");
+                // $("#heroimg").css("background-image", "url('img/background/HEADER01A.svg')");
                 $("#skill1").css("background-image", "url('img/background/ICON01A.png')");
                 $("#skill2").css("background-image", "url('img/background/ICON02A.png')");
                 $("#skill3").css("background-image", "url('img/background/ICON03A.png')");
@@ -531,7 +533,7 @@
             }
             
             if (time >= 6 && time < 12){
-                $("#heroimg").css("background-image", "url('img/background/HEADER02B.svg')");
+                // $("#heroimg").css("background-image", "url('img/background/HEADER02B.svg')");
                 $("#skill1").css("background-image", "url('img/background/ICON01B.png')");
                 $("#skill2").css("background-image", "url('img/background/ICON02B.png')");
                 $("#skill3").css("background-image", "url('img/background/ICON03B.png')");
@@ -545,7 +547,7 @@
             
 
             if (time >= 12 && time<18){
-                $("#heroimg").css("background-image", "url('img/background/HEADER03C.svg')");
+                // $("#heroimg").css("background-image", "url('img/background/HEADER03C.svg')");
                 $("#skill1").css("background-image", "url('img/background/ICON01C.png')");
                 $("#skill2").css("background-image", "url('img/background/ICON02C.png')");
                 $("#skill3").css("background-image", "url('img/background/ICON03C.png')");
@@ -557,7 +559,7 @@
             }
 
             if (time >= 18){
-                $("#heroimg").css("background-image", "url('img/background/HEADER04D.svg')");
+                // $("#heroimg").css("background-image", "url('img/background/HEADER04D.svg')");
                 $("#skill1").css("background-image", "url('img/background/ICON01D.png')");
                 $("#skill2").css("background-image", "url('img/background/ICON02D.png')");
                 $("#skill3").css("background-image", "url('img/background/ICON03D.png')");

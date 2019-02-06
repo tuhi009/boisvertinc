@@ -6,19 +6,25 @@
     font-family: 'Burger';
     src: url('../fonts/Burger-Joint-JL-Regular.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/Burger-Joint-JL-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-         url('../fonts/Burger-Joint-JL-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+         url('../fonts/Burger-Joint-JL-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/LeagueGothic-Regular.otf')  format('otf'); /* Safari, Android, iOS */
+  }
+
+  @font-face {
+    font-family: 'LeagueGothic';
+    src: url('../fonts/LeagueGothic-Regular.otf')  format('otf'); /* Safari, Android, iOS */
   }
 
 p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'LeagueGothic', sans-serif;
 }
 
 h1,h3{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'LeagueGothic', sans-serif;
 }
 
 h2{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'LeagueGothic', sans-serif;
 }
 
 topnav{
@@ -44,7 +50,7 @@ nav{
     font-family: 'Open Sans', sans-serif;
 }
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link  {
-    color:#ff3f00;
+    color:#f69800;
 }
 .jumbotron{
     border-radius: 0px;
@@ -124,6 +130,7 @@ nav{
     .row-two{
         padding-top: 0px;
     }
+
 
     .display-2{
         font-size: 4.5rem;
