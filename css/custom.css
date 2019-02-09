@@ -60,7 +60,7 @@ nav{
 }
 
 #clients{
-    background-color: black;
+    background-color: #0F0F0F;
 }
 
 .emmy-word{
@@ -82,8 +82,20 @@ nav{
     font-size: 50px;
 }
 
+#tools .container{
+    text-align: center;
+
+}
+
 #tools img{
-    width: 388px;
+    height: 260px;
+    padding-bottom: 10px;
+    
+}
+
+#tools h2{
+    font-weight: bold;
+    color:white;
 }
 
 .parallax-effect{
@@ -98,7 +110,8 @@ nav{
 
 
 #tv-shows img{
-    width: 70%
+    width: 70%;
+    
 }
 
 
