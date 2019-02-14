@@ -38,6 +38,7 @@ nav{
 
 
 
+
 .navbar-brand{
     font-family: 'Yellowtail', cursive;
     font-size: 24px;
@@ -128,6 +129,15 @@ nav{
 @media only screen and (max-width: 600px) {
     body{
         padding-top: 90px;
+    }
+
+    #emmy .display-4{
+        font-size: 2.5rem;
+    }
+
+    .section-title{
+      
+        font-size: 2.5rem;
     }
 
     section:before{
