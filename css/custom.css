@@ -112,7 +112,7 @@ nav{
     
    background-repeat: no-repeat;
    background-size: cover;
-   height: 100%; 
+   height: 100%;
    background-attachment: fixed;
    background-position: center; 
 }
@@ -193,6 +193,12 @@ nav{
     #heroimg h2{
         font-size: 8vw;
     }
+
+    .tools-border{
+        border-bottom: 2px solid white;
+        border-width: 50%;
+    }
+
     #contact{
         /* padding: 7%; */
         padding-top: 30%;
