@@ -49,7 +49,7 @@ nav{
     text-transform: uppercase; 
     font-size: 25px; 
     font-weight: 500;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'LeagueGothic', sans-serif;
 }
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link  {
     color:#f69800;
@@ -64,6 +64,7 @@ nav{
 #clients{
     background-color: #0F0F0F;
 }
+
 
 .emmy-word{
     text-decoration: none;
@@ -130,6 +131,13 @@ nav{
     body{
         padding-top: 90px;
     }
+
+    #emmy{
+        
+        padding-top: 50px; 
+        padding-bottom: 50px;
+    }
+
 
     #emmy .display-4{
         font-size: 2.5rem;
@@ -215,6 +223,11 @@ nav{
         padding-top: 50px; 
         padding-bottom: 20px;
     }
+    #emmy{
+        
+        padding-top: 100px; 
+        padding-bottom: 100px;
+    }
 } 
 
 
@@ -262,11 +275,21 @@ nav{
         justify-content: space-between;
         
     }
+
+    .nav-text{
+        font-size: 20px; 
+    }
+
     section:before{
         height: 105px;
         content: "";
         display:block;
         
+    }
+    #emmy{
+        
+        padding-top: 200px; 
+        padding-bottom: 200px;
     }
 
     .align-right{
@@ -326,6 +349,10 @@ nav{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+    .nav-text{
+        font-size: 25px; 
+    }
 
     .title-1{
         font-size: 6vw;
