@@ -194,6 +194,10 @@ nav{
         font-size: 8vw;
     }
 
+    #heroimg .row{
+        height: 55vh;
+    }
+
     .tools-border{
         border-bottom: 2px solid white;
         border-width: 50%;
@@ -213,22 +217,28 @@ nav{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+    body{
+        padding-top: 90px;
+    }
+
+    #heroimg .row{
+        height: 75vh;
+    }
+    
     .title-1{
-        font-size: 16vw;
+        font-size: 13vw;
         letter-spacing: 5.2px;
         line-height: 1.0;
     }
     .title-2{
-        font-size: 10vw;
+        font-size: 8vw;
         letter-spacing: 5.2px;
         line-height: 1.0;
     }
     #heroimg h2{
-        font-weight: bold;
-        font-size: 2vw;
-        padding-top: 50px; 
-        padding-bottom: 20px;
+        font-size: 7vw;
     }
+
     #emmy{
         
         padding-top: 100px; 
@@ -283,7 +293,11 @@ nav{
     }
 
     .nav-text{
-        font-size: 20px; 
+        font-size: 15px; 
+    }
+
+    #heroimg .row{
+        height: 75vh;
     }
 
     section:before{
@@ -292,6 +306,8 @@ nav{
         display:block;
         
     }
+
+
     #emmy{
         
         padding-top: 200px; 
@@ -357,7 +373,11 @@ nav{
 @media only screen and (min-width: 1200px) {
 
     .nav-text{
-        font-size: 25px; 
+        font-size: 20px; 
+    }
+
+    #heroimg .row{
+        height: 75vh;
     }
 
     .title-1{
@@ -377,6 +397,8 @@ nav{
         padding-top: 50px; 
         padding-bottom: 20px;
     }
+
+
     
 }
 
