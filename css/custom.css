@@ -381,25 +381,23 @@ nav{
     }
 
     .title-1{
-        font-size: 6vw;
+        font-size: 5.5em;
         letter-spacing: 5.2px;
         line-height: 1.0;
     }
     .title-2{
-        font-size: 5vw;
+        font-size: 4em;
         letter-spacing: 5.2px;
         line-height: 1.0;
     }
     
     #heroimg h2{
         font-weight: bold;
-        font-size: 2vw;
+        font-size: 2em;
         padding-top: 50px; 
         padding-bottom: 20px;
     }
 
-
-    
 }
 
 
