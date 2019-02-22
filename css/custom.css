@@ -253,27 +253,32 @@ nav{
         padding-top: 80px;
     }
 
+    .nav-text{
+        font-size: 12px; 
+    }
+
     .title-1{
-        font-size: 16vw;
+        font-size: 65px;
         letter-spacing: 5.2px;
         line-height: 1.0;
     }
     .title-2{
-        font-size: 10vw;
+        font-size: 42px;
         letter-spacing: 5.2px;
         line-height: 1.0;
     }
+    #heroimg .row{
+        height: 65vh;
+    }
+
     .mid-banner{
         padding-top: 7%;
         padding-left: 22%;
         padding-bottom: 7%;
 
     }
-    #heroimg h2{
-        font-weight: bold;
-        font-size: 2vw;
-        padding-top: 50px; 
-        padding-bottom: 20px;
+ #heroimg h2{
+    font-size: 30px;
     }
     
 
@@ -293,7 +298,7 @@ nav{
     }
 
     .nav-text{
-        font-size: 15px; 
+        font-size: 13px; 
     }
 
     #heroimg .row{
@@ -323,19 +328,19 @@ nav{
     }
    
     .title-1{
-        font-size: 10vw;
+        font-size: 5em;
         letter-spacing: 5.2px;
         line-height: 1.0;
     }
     .title-2{
-        font-size: 6vw;
+        font-size: 3em;
         letter-spacing: 5.2px;
         line-height: 1.0;
     }
     
     #heroimg h2{
         font-weight: bold;
-        font-size: 2vw;
+        font-size: 2em;
         padding-top: 50px; 
         padding-bottom: 20px;
     }
@@ -373,7 +378,7 @@ nav{
 @media only screen and (min-width: 1200px) {
 
     .nav-text{
-        font-size: 20px; 
+        font-size: 18px; 
     }
 
     #heroimg .row{
