@@ -39,6 +39,7 @@ nav{
 
 
 
+
 .navbar-brand{
     font-family: 'Yellowtail', cursive;
     font-size: 24px;
@@ -55,6 +56,10 @@ nav{
     color:#f69800;
 }
 
+
+.borderimg{
+    position: absolute;
+   }
 
 .jumbotron{
     border-radius: 0px;
@@ -101,12 +106,7 @@ nav{
     color:white;
 }
 
-.borderimg{
-    border-top: 20px solid transparent;
-    -webkit-border-image: url('../img/border.svg') 30 stretch; /* Safari 3.1-5 */
-  -o-border-image: url('../img/border.svg') 30 stretch; /* Opera 11-12.1 */
-  border-image: url('../img/border.svg') 30 stretch;
-}
+
 
 .parallax-effect{
     
@@ -132,6 +132,11 @@ nav{
         padding-top: 90px;
     }
 
+    
+    .top-padding{
+        padding-top: 50px;
+    }
+
     #emmy{
         
         padding-top: 50px; 
@@ -152,6 +157,7 @@ nav{
         height: 84px;
         content: "";
         display:block;
+        position: absolute;
         
     }
 
@@ -221,6 +227,10 @@ nav{
         padding-top: 90px;
     }
 
+    .top-padding{
+        padding-top: 50px;
+    }
+
     #heroimg .row{
         height: 65vh;
     }
@@ -250,6 +260,10 @@ nav{
 /* FOR TABLET */
 @media only screen and (min-width: 768px) {
     body{
+        padding-top: 80px;
+    }
+
+    .top-padding{
         padding-top: 80px;
     }
 
@@ -289,12 +303,17 @@ nav{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
     body{
         padding-top: 105px;
     }
     nav{
         justify-content: space-between;
         
+    }
+
+    .top-padding{
+        padding-top: 80px;
     }
 
     .nav-text{
@@ -309,7 +328,7 @@ nav{
         height: 105px;
         content: "";
         display:block;
-        
+        position: absolute;
     }
 
 
@@ -376,6 +395,10 @@ nav{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+    .top-padding{
+        padding-top: 110px;
+    }
 
     .nav-text{
         font-size: 18px; 
