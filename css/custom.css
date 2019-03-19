@@ -196,6 +196,8 @@ nav{
         padding-bottom: 30%;
     }
 
+  
+
     #heroimg h2{
         font-size: 8vw;
     }
@@ -230,6 +232,8 @@ nav{
     .top-padding{
         padding-top: 50px;
     }
+
+  
 
     #heroimg .row{
         height: 65vh;
@@ -270,6 +274,9 @@ nav{
     .nav-text{
         font-size: 12px; 
     }
+
+
+ 
 
     .title-1{
         font-size: 65px;
@@ -319,6 +326,8 @@ nav{
     .nav-text{
         font-size: 13px; 
     }
+
+   
 
     #heroimg .row{
         height: 75vh;
@@ -404,12 +413,14 @@ nav{
         font-size: 18px; 
     }
 
+   
+
     #heroimg .row{
         height: 75vh;
     }
 
     .title-1{
-        font-size: 5.5em;
+        font-size: 6em;
         letter-spacing: 5.2px;
         line-height: 1.0;
     }
@@ -421,7 +432,7 @@ nav{
     
     #heroimg h2{
         font-weight: bold;
-        font-size: 2em;
+        font-size: 2.2em;
         padding-top: 50px; 
         padding-bottom: 20px;
     }
