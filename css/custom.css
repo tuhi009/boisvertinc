@@ -27,19 +27,21 @@
 
   @font-face {
     font-family: 'LeagueGothic';
-    src: url('../fonts/LeagueGothic-Regular.otf')  format('otf'); /* Safari, Android, iOS */
+    src: url('../fonts/LeagueGothic-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/LeagueGothic-Regular.otf')  format('otf'); /* Safari, Android, iOS */
+
   }
 
 p{
-    font-family: 'MyriadProCond', sans-serif;
+    font-family: 'LeagueGothic', sans-serif;
 }
 
 h1,h3,h4,h5,h6{
-    font-family: 'MyriadProCond', sans-serif;
+    font-family: 'LeagueGothic', sans-serif;
 }
 
 h2{
-    font-family: 'MyriadProCond', sans-serif;
+    font-family: 'LeagueGothic', sans-serif;
 }
 
 topnav{
@@ -372,12 +374,10 @@ nav{
    
     .title-1{
         font-size: 5em;
-        letter-spacing: 0.2px;
         line-height: 1.0;
     }
     .title-2{
         font-size: 3em;
-        letter-spacing: 0.2px;
         line-height: 1.0;
     }
     
@@ -436,12 +436,10 @@ nav{
 
     .title-1{
         font-size: 6em;
-        letter-spacing: 0.2px;
         line-height: 1.0;
     }
     .title-2{
         font-size: 6.5em;
-        letter-spacing: 0.2px;
         line-height: 1.0;
     }
     
