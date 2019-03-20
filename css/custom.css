@@ -167,12 +167,12 @@ nav{
 
     .title-1{
         font-size: 13vw;
-        letter-spacing: 5.2px;
+        letter-spacing: 0.2px;        
         line-height: 1.0;
     }
     .title-2{
         font-size: 9vw;
-        letter-spacing: 5.2px;
+        letter-spacing: 0.2px;
         line-height: 1.0;
     }
 
@@ -241,12 +241,12 @@ nav{
 
     .title-1{
         font-size: 13vw;
-        letter-spacing: 5.2px;
+        letter-spacing: 0.2px;
         line-height: 1.0;
     }
     .title-2{
         font-size: 8vw;
-        letter-spacing: 5.2px;
+        letter-spacing: 0.2px;
         line-height: 1.0;
     }
     #heroimg h2{
@@ -357,12 +357,12 @@ nav{
    
     .title-1{
         font-size: 5em;
-        letter-spacing: 5.2px;
+        letter-spacing: 0.2px;
         line-height: 1.0;
     }
     .title-2{
         font-size: 3em;
-        letter-spacing: 5.2px;
+        letter-spacing: 0.2px;
         line-height: 1.0;
     }
     
@@ -420,19 +420,19 @@ nav{
     }
 
     .title-1{
-        font-size: 6em;
-        letter-spacing: 5.2px;
+        font-size: 5em;
+        letter-spacing: 0.2px;
         line-height: 1.0;
     }
     .title-2{
-        font-size: 4em;
-        letter-spacing: 5.2px;
+        font-size: 5.5em;
+        letter-spacing: 0.2px;
         line-height: 1.0;
     }
     
     #heroimg h2{
         font-weight: bold;
-        font-size: 2.2em;
+        font-size: 3em;
         padding-top: 50px; 
         padding-bottom: 20px;
     }
