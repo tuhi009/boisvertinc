@@ -85,6 +85,8 @@ nav{
     margin-bottom: 0px;
 }
 
+
+
 #clients{
     background-color: #0F0F0F;
 }
@@ -155,6 +157,9 @@ nav{
     .top-padding{
         padding-top: 50px;
     }
+
+   
+
 
     #emmy{
         
@@ -252,7 +257,7 @@ nav{
         padding-top: 50px;
     }
 
-  
+
 
     #heroimg .row{
         height: 65vh;
@@ -294,8 +299,7 @@ nav{
         font-size: 12px; 
     }
 
-
- 
+    
 
     .title-1{
         font-size: 65px;
