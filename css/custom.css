@@ -6,29 +6,31 @@
 
 @font-face {
     font-family: 'MyriadProCond';
-    src: url('../fonts/MYRIADPRO-COND.woff2')  format('woff2'), /* Super Modern Browsers */
-         url('../fonts/MYRIADPRO-COND.OTF')  format('otf'); /* Safari, Android, iOS */
+    src:url('../fonts/MYRIADPRO-COND.woff2')  format('woff2'), /* Super Modern Browsers */
+        url('../fonts/MYRIADPRO-COND.OTF')  format('otf'); /* Safari, Android, iOS */
   }
 
   @font-face {
     font-family: 'MyriadPro';
-    src: url('../fonts/MYRIADPRO-REGULAR.woff2')  format('woff2'), /* Super Modern Browsers */
-         url('../fonts/MYRIADPRO-REGULAR.OTF')  format('otf'); /* Safari, Android, iOS */
+    src:url('../fonts/MYRIADPRO-REGULAR.woff2')  format('woff2'), /* Super Modern Browsers */
+        url('../fonts/MYRIADPRO-REGULAR.OTF')  format('otf'); /* Safari, Android, iOS */
   }
 
 
   @font-face {
     font-family: 'Burger';
-    src: url('../fonts/Burger-Joint-JL-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/Burger-Joint-JL-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-         url('../fonts/Burger-Joint-JL-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/LeagueGothic-Regular.otf')  format('otf'); /* Safari, Android, iOS */
+    src:url('../fonts/Burger-Joint-JL-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/Burger-Joint-JL-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/Burger-Joint-JL-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/LeagueGothic-Regular.otf')  format('otf'); /* Safari, Android, iOS */
   }
 
   @font-face {
     font-family: 'LeagueGothic';
-    src: url('../fonts/LeagueGothic-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/LeagueGothic-Regular.otf')  format('otf'); /* Safari, Android, iOS */
+    src:url('../fonts/LeagueGothic-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/LeagueGothic-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/LeagueGothic-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/LeagueGothic-Regular.otf')  format('otf'); /* Safari, Android, iOS */
 
   }
 
@@ -373,17 +375,18 @@ nav{
     }
    
     .title-1{
-        font-size: 5em;
+        font-size: 4.2em;
         line-height: 1.0;
     }
     .title-2{
-        font-size: 3em;
+        font-size: 5em;
         line-height: 1.0;
+        letter-spacing: 2px;
     }
     
     #heroimg h2{
         font-weight: bold;
-        font-size: 2em;
+        font-size: 2.8em;
         padding-top: 50px; 
         padding-bottom: 20px;
     }
@@ -435,7 +438,7 @@ nav{
     }
 
     .title-1{
-        font-size: 6em;
+        font-size: 6.2em;
         line-height: 1.0;
     }
     .title-2{
@@ -448,6 +451,7 @@ nav{
         font-size: 3em;
         padding-top: 50px; 
         padding-bottom: 20px;
+        letter-spacing: 2px;
     }
 
 }
