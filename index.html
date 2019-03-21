@@ -90,7 +90,7 @@
 
 
     <div id="heroimg" class="jumbotron"
-        style="margin-bottom: 0px; border-radius: 0px; background-color:#0f0f0f; background-image: url(img/background/BACKGROUND1000x1000.svg); background-repeat: no-repeat;background-size:cover;">
+        style="margin-bottom: 0px; border-radius: 0px; background-color:#0f0f0f; background-image: url(img/background/background-01.svg); background-repeat: no-repeat;background-size:cover;">
 
         <div class="container">
             <div id="hero-social" style="text-align:right;">
@@ -115,7 +115,7 @@
     <img src="img/border.svg" width="100%" class="img-fluid borderimg" alt="border">
 
     <div id="emmy" class="jumbotron"
-        style="background-color:#0f0f0f;background-image: url(img/background/Untitled-3.svg); background-repeat: no-repeat;background-size: cover;">
+        style="background-color:#0f0f0f; background-repeat: no-repeat;background-size: cover;">
         <h1 class="display-4" style="color:white;font-weight: 700; text-align: center;"><span style="color:#f69800;">I
                 AM A 2017</span> <ins class="emmy-word">EMMY</ins><br />AWARD-WINNING DESIGNER!</h1>
 
@@ -165,7 +165,7 @@
 
 
     <section id="tools" class="container-fluid top-padding"
-        style="background-color:#0f0f0f;background-image: url(img/background/Untitled-3.svg); background-repeat: no-repeat;background-size: cover; padding-bottom: 80px">
+        style="background-color:#0f0f0f; background-repeat: no-repeat;background-size: cover; padding-bottom: 80px">
         <div class="container">
             <h1 class="section-title" style=" color: white; "><span style="color:#f69800;">MY
                     CORE</span> SKILLS</h1>
@@ -501,7 +501,7 @@
     <img src="img/border.svg" width="100%" class="img-fluid borderimg" style="" alt="border">
 
     <div id="contact" class="jumbotron"
-        style="margin-bottom: 0px;background-color:#0f0f0f;background-image: url(img/background/Untitled-3.svg); background-repeat: no-repeat;background-size: cover; border-radius: 0px">
+        style="margin-bottom: 0px;background-color:#0f0f0f; background-repeat: no-repeat;background-size: cover; border-radius: 0px">
         <h1 class="display-5" style="color:#f69800;font-weight: 650; text-align: center;">I AM BASED IN WASHINGTON
             DC.<br />I FREELANCE 24/7,
             I AM AVAILABLE TO MAKE SOMETHING AWESOME TOGETHER RIGHT NOW!</h1>
@@ -555,24 +555,38 @@
             time = time - 5;
 
             if (time < 6){
-                // $("#heroimg").css("background-image", "url('img/background/HEADER01A.svg')");
+                $("#heroimg").css("background-image", "url('img/background/background-01.svg')");
+                $("#emmy").css("background-image", "url('img/background/background-02.svg')");
+                $("#tools").css("background-image", "url('img/background/background-03.svg')");
+                $("#contact").css("background-image", "url('img/background/background-04.svg')");
+
               
             }
 
             if (time >= 6 && time < 12){
-                // $("#heroimg").css("background-image", "url('img/background/HEADER02B.svg')");
+                $("#heroimg").css("background-image", "url('img/background/background-02.svg')");
+                $("#emmy").css("background-image", "url('img/background/background-03.svg')");
+                $("#tools").css("background-image", "url('img/background/background-04.svg')");
+                $("#contact").css("background-image", "url('img/background/background-01.svg')");
+
               
             }
 
 
 
             if (time >= 12 && time<18){
-                // $("#heroimg").css("background-image", "url('img/background/HEADER03C.svg')");
+                $("#heroimg").css("background-image", "url('img/background/background-03.svg')");
+                $("#emmy").css("background-image", "url('img/background/background-04.svg')");
+                $("#tools").css("background-image", "url('img/background/background-01.svg')");
+                $("#contact").css("background-image", "url('img/background/background-02.svg')");
               
             }
 
             if (time >= 18){
-                // $("#heroimg").css("background-image", "url('img/background/HEADER04D.svg')");
+                $("#heroimg").css("background-image", "url('img/background/background-04.svg')");
+                $("#emmy").css("background-image", "url('img/background/background-01.svg')");
+                $("#tools").css("background-image", "url('img/background/background-02.svg')");
+                $("#contact").css("background-image", "url('img/background/background-03.svg')");
              
             }
 
