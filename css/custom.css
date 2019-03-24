@@ -444,17 +444,17 @@ nav{
     }
 
     .title-1{
-        font-size: 6.9em;
+        font-size: 9em;
         line-height: 1.0;
     }
     .title-2{
-        font-size: 5em;
+        font-size: 6.5em;
         line-height: 1.0;
     }
     
     #heroimg h2{
         font-weight: bold;
-        font-size: 3em;
+        font-size: 3.6em;
         /* padding-top: 50px; 
         padding-bottom: 20px; */
         letter-spacing: 2px;
