@@ -158,7 +158,9 @@ nav{
         padding-top: 50px;
     }
 
-   
+    #hero-row{
+        padding-top: 20px;
+    }
 
 
     #emmy{
@@ -201,6 +203,7 @@ nav{
     }
 
     #heroimg h2{
+        padding-top: 15px;
         font-size: 10vw;
     }
 
@@ -304,13 +307,13 @@ nav{
     
 
     .title-1{
-        font-size: 65px;
-        letter-spacing: 5.2px;
+        font-size: 94px;
+        
         line-height: 1.0;
     }
     .title-2{
-        font-size: 42px;
-        letter-spacing: 5.2px;
+        font-size: 74px;
+        
         line-height: 1.0;
     }
     #heroimg .row{
@@ -324,7 +327,7 @@ nav{
 
     }
  #heroimg h2{
-    font-size: 30px;
+    font-size: 38px;
     }
     
 
