@@ -9,13 +9,28 @@
         content="BoisvertINC, Design, Media, Inc, 3D, Motion, Automation, Design, B2B, Motion Graphics, Virual Reality, Augmented Reality, SEO, 360 Degree...">
     <link rel="canonical" href="https://boisvertinc.com/">
     <link rel="icon" type="image/png" href="img/favicon.png">
-    <script
-        type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/boisvertinc.com\/","name":"Boisvertinc","potentialAction":{"@type":"SearchAction","target":"https:\/\/boisvertinc.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+    <script type="application/ld+json">
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "WebSite",
+            "@id": "#website",
+            "url": "https:\/\/boisvertinc.com\/",
+            "name": "Boisvertinc",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https:\/\/boisvertinc.com\/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122610470-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-122610470-1');
@@ -85,7 +100,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                   
+
                 </ul>
             </div>
         </div>
@@ -104,7 +119,8 @@
                         class="fab fa-instagram fa-2x"></i></a></div>
             <div id="hero-row" class="row align-items-center justify-content-center">
                 <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-                    <h1 class="title-1 " style="color:#f69800;font-weight: 600;text-transform: uppercase;">Boisvert <span style="color:#f1f2f2;">inc</span></h1>
+                    <h1 class="title-1 " style="color:#f69800;font-weight: 600;text-transform: uppercase;">Boisvert
+                        <span style="color:#f1f2f2;">inc</span></h1>
                     <h1 class="title-2 " style="color:white;font-weight: 600;color:#808285;">The Portfolio</h1>
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
@@ -515,6 +531,20 @@
         </a>
     </div>
 
+    <section style="background-color: #0F0F0F;">
+        <div class="container">
+            <div class="row">
+                <a class="col-md-6 twitter-timeline" data-lang="en" data-width="500" data-height="450"
+                    data-theme="dark" data-link-color="#f69800"
+                    href="https://twitter.com/boisvertinc?ref_src=twsrc%5Etfw">Tweets by boisvertinc</a>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
 
 
 
@@ -540,8 +570,8 @@
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/lazysizes.min.js" async></script>
@@ -550,56 +580,54 @@
             $('.navbar-collapse').collapse('hide');
         });
 
-// Tools background changing script //
-        $(document).ready(function(){
+        // Tools background changing script //
+        $(document).ready(function () {
 
             var d = new Date();
             var time = d.getUTCHours();
 
             time = time - 5;
 
-            if (time < 6){
+            if (time < 6) {
                 $("#heroimg").css("background-image", "url('img/background/background-01.svg')");
                 $("#emmy").css("background-image", "url('img/background/background-02.svg')");
                 $("#tools").css("background-image", "url('img/background/background-03.svg')");
                 $("#contact").css("background-image", "url('img/background/background-04.svg')");
 
-              
+
             }
 
-            if (time >= 6 && time < 12){
+            if (time >= 6 && time < 12) {
                 $("#heroimg").css("background-image", "url('img/background/background-02.svg')");
                 $("#emmy").css("background-image", "url('img/background/background-03.svg')");
                 $("#tools").css("background-image", "url('img/background/background-04.svg')");
                 $("#contact").css("background-image", "url('img/background/background-01.svg')");
 
-              
+
             }
 
 
 
-            if (time >= 12 && time<18){
+            if (time >= 12 && time < 18) {
                 $("#heroimg").css("background-image", "url('img/background/background-03.svg')");
                 $("#emmy").css("background-image", "url('img/background/background-04.svg')");
                 $("#tools").css("background-image", "url('img/background/background-01.svg')");
                 $("#contact").css("background-image", "url('img/background/background-02.svg')");
-              
+
             }
 
-            if (time >= 18){
+            if (time >= 18) {
                 $("#heroimg").css("background-image", "url('img/background/background-04.svg')");
                 $("#emmy").css("background-image", "url('img/background/background-01.svg')");
                 $("#tools").css("background-image", "url('img/background/background-02.svg')");
                 $("#contact").css("background-image", "url('img/background/background-03.svg')");
-             
+
             }
 
 
         });
-
-
-
     </script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </body>
 
