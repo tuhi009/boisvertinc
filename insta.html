@@ -3,15 +3,10 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
 
 
-#instafeed {
-  position: relative;
-  width: 100vw;
-  display: flex;
-  flex-flow: row wrap;
-}
+
 #instafeed .post {
   position: relative;
-  width: 20vw;
+  width: 18vw;
   height: 20vw;
   background: #000;
   display: block;
@@ -54,8 +49,17 @@
 
 </style>
 
-<section id="instafeed"></section>
 
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<section id="insta">
+  <div class="container-fluid">
+    <div id="instafeed" class="row justify-content-md-center no-gutters">
+
+    </div>
+  </div>
+  
+</section>
 
 
 
@@ -67,14 +71,14 @@ $(function(){
   var accessToken = '8574007890.297f400.15c9609a6aae4d819bd0186124d2b9b4';
   $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token='+accessToken+'&callback=?',function (insta) {
     $.each(insta.data,function (photos,src) {
-      if ( photos === 4 ) { return false; }
-      $('<a href="'+src.link+'" class="post">'+
+      if ( photos === 5 ) { return false; }
+      $('<div class="col-auto">'+'<a href="'+src.link+'" class="post">'+
         '<div class="image" style="background-image:url('+src.images.standard_resolution.url+');"></div>'+
         '<ul>'+
         
         '<li><i class="fa fa-heart"></i> '+src.likes.count+'</li>'+
         '<li><i class="fa fa-comment"></i> '+src.comments.count+'</li>'+
-        '</ul></a>').appendTo('#instafeed');
+        '</ul></a></div>').appendTo('#instafeed');
     });
   });
 });

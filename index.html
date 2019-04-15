@@ -515,7 +515,14 @@
         </a>
     </div>
 
-    <section id="instafeed"></section>
+    <div id="insta" style="background-color:#0f0f0f;">
+            <div class="container-fluid">
+              <div id="instafeed" class="row justify-content-md-center ">
+          
+              </div>
+            </div>
+            
+        </div>
 
 
 
@@ -598,19 +605,19 @@
 
 
         // Instagram Feed Script //
-            var accessToken = '8574007890.297f400.15c9609a6aae4d819bd0186124d2b9b4';
-            $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token=' + accessToken + '&callback=?', function (insta) {
-                $.each(insta.data, function (photos, src) {
-                    if (photos === 4) { return false; }
-                    $('<a href="' + src.link + '" class="post">' +
-                        '<div class="image" style="background-image:url(' + src.images.standard_resolution.url + ');"></div>' +
-                        '<ul>' +
-
-                        '<li><i class="fa fa-heart"></i> ' + src.likes.count + '</li>' +
-                        '<li><i class="fa fa-comment"></i> ' + src.comments.count + '</li>' +
-                        '</ul></a>').appendTo('#instafeed');
-                });
-            });
+        var accessToken = '8574007890.297f400.15c9609a6aae4d819bd0186124d2b9b4';
+  $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token='+accessToken+'&callback=?',function (insta) {
+    $.each(insta.data,function (photos,src) {
+      if ( photos === 5 ) { return false; }
+      $('<div class="col">'+'<a href="'+src.link+'" class="post">'+
+        '<div class="image" style="background-image:url('+src.images.standard_resolution.url+');"></div>'+
+        '<ul>'+
+        
+        '<li><i class="fa fa-heart"></i> '+src.likes.count+'</li>'+
+        '<li><i class="fa fa-comment"></i> '+src.comments.count+'</li>'+
+        '</ul></a></div>').appendTo('#instafeed');
+    });
+  });
 
 
         });

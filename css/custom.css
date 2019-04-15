@@ -595,20 +595,20 @@ nav{
 
 /* Insta Feed */
 
-#instafeed {
+#instafeed .post {
     position: relative;
-    width: 100vw;
-    display: flex;
-    flex-flow: row wrap;
-  }
-  #instafeed .post {
-    position: relative;
-    width: 20vw;
-    height: 20vw;
+    width: 345px;
+    height: 345px;
     background: #000;
     display: block;
     overflow: hidden;
   }
+  @media only screen and (max-width: 600px) {
+    #instafeed .post{
+        width: 100%;
+    }
+
+  } 
   #instafeed .post .image {
     position: absolute;
     top: 0;
