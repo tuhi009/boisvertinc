@@ -516,8 +516,8 @@
     </div>
 
     <div id="insta" style="background-color:#0f0f0f;">
-            <div class="container-fluid">
-              <div id="instafeed" class="row justify-content-md-center ">
+            <div class="container">
+              <div id="instafeed" class="row justify-content-md-center no-gutters">
           
               </div>
             </div>
@@ -608,8 +608,8 @@
         var accessToken = '8574007890.297f400.15c9609a6aae4d819bd0186124d2b9b4';
   $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token='+accessToken+'&callback=?',function (insta) {
     $.each(insta.data,function (photos,src) {
-      if ( photos === 5 ) { return false; }
-      $('<div class="col">'+'<a href="'+src.link+'" class="post">'+
+      if ( photos === 3 ) { return false; }
+      $('<div class="col-md-4">'+'<a target="_blank" href="'+src.link+'" class="post">'+
         '<div class="image" style="background-image:url('+src.images.standard_resolution.url+');"></div>'+
         '<ul>'+
         
