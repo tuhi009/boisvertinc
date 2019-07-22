@@ -1,0 +1,211 @@
+html body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*=========Button Styling=========*/
+.btn{
+    color:#FA4F52 !important;
+    border:1px solid #FA4F52;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: #D5B345;
+    border:1px solid #D5B345 !important;
+    color:#fff !important;
+}
+/*=========Button Styling=========*/
+
+
+
+/* =========Navbar Start==========*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+
+
+
+@font-face {
+    font-family: 'MyriadProCond';
+    src:url('../fonts/MYRIADPRO-COND.woff2')  format('woff2'), /* Super Modern Browsers */
+        url('../fonts/MYRIADPRO-COND.OTF')  format('otf'); /* Safari, Android, iOS */
+  }
+
+  @font-face {
+    font-family: 'MyriadPro';
+    src:url('../fonts/MYRIADPRO-REGULAR.woff2')  format('woff2'), /* Super Modern Browsers */
+        url('../fonts/MYRIADPRO-REGULAR.OTF')  format('otf'); /* Safari, Android, iOS */
+  }
+
+
+  @font-face {
+    font-family: 'Burger';
+    src:url('../fonts/Burger-Joint-JL-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/Burger-Joint-JL-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/Burger-Joint-JL-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/LeagueGothic-Regular.otf')  format('otf'); /* Safari, Android, iOS */
+  }
+
+  @font-face {
+    font-family: 'LeagueGothic';
+    src:url('../fonts/LeagueGothic-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/LeagueGothic-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/LeagueGothic-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/LeagueGothic-Regular.otf')  format('otf'); /* Safari, Android, iOS */
+
+  }
+
+p{
+    font-family: 'LeagueGothic', sans-serif;
+}
+
+h1,h3,h4,h5,h6{
+    font-family: 'LeagueGothic', sans-serif;
+}
+
+h2{
+    font-family: 'LeagueGothic', sans-serif;
+}
+
+topnav{
+    background-color:white;
+}
+
+
+nav{
+    background-color:#131416;
+}
+
+
+
+
+
+.navbar-brand{
+    font-family: 'Yellowtail', cursive;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.nav-text{
+    text-transform: uppercase; 
+    font-size: 25px; 
+    font-weight: 500;
+    font-family: 'LeagueGothic', sans-serif;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link  {
+    color:#f69800;
+}
+
+/*--search bar--*/
+
+.form-control{
+    border:1px solid #FA4F52;
+}
+/*========Navbar End========*/
+
+/*=========light box start==========*/
+
+/*=========light box start==========*/
+
+
+/*========Start Main========*/
+.wrap{
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: -7% auto auto auto ;
+}
+.top-bar{
+    padding-left: 0%;
+    padding-right: 9%;
+    z-index: 500;
+    width: 100%;
+    margin-top: 120px;
+    margin-top: 13%;
+    pointer-events: none;
+    color: #F8991D;
+
+}
+.right-card{
+    margin-right: 20%;
+}
+
+
+.col-4 {
+    /* outline: solid 1px green; */
+    z-index: 500;
+    width: 100%;
+    margin-top: 120px;
+    margin-top: 13vh;
+    pointer-events: none;
+}
+
+.featured {
+    /* /background-image: url(http://boisvertinc.com/img/background/background-01.svg); */
+    background-attachment: fixed;
+    background-size: cover;
+
+    margin-bottom: 5px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 6px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-auto-flow: row;
+}
+/* .featured .text {
+    position: absolute;
+    z-index: 100;
+    margin: 0;
+} */
+.teaserlayout-1 .teaserno-1 {
+    width: 50%;
+    justify-self: end;
+    align-self: center;
+}
+.teaser img, .teaser video {
+    object-fit: cover;
+    background: #eee;
+}
+img {
+    max-width: 100%;
+}
+
+.featured .text {
+    position: absolute;
+    z-index: 100;
+    margin: 0;
+}
+.text {
+    width: 100%;
+    max-width: 600px;
+}
+
+.hovertype {
+    font-size: 20vw;
+    line-height: 20vw;
+    display: none;
+    z-index: 10000;
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #000;
+    color: transparent;
+    pointer-events: none;
+    -webkit-text-stroke: .3vw #F8991D;
+    /* color: red; */
+    text-align: center;
+}
+.featured:hover .hovertype {
+    display: block !important;
+  }
+  
+
+@media only screen and (max-width: 500px) {
+    .featured{
+        width:100%;
+    }
+}
