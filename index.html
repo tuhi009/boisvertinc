@@ -105,13 +105,24 @@
                 <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
                     <h1 class="title-1 " style="color:#f69800;font-weight: 600;text-transform: uppercase;">Boisvert
                         <span style="color:#f1f2f2;">inc</span></h1>
-                    <h1 class="title-2 " style="color:white;font-weight: 600;color:#808285;">The Portfolio</h1>
+                    <h1 class="title-2 " style="font-weight: 400;color:#808285;">Emmy Award winning
+                        visual<br>productions at your service!</h1>
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <h2 style="color: white; ">Art direction <br />
                         Motion graphics<br />Virtual reality<br />Automation</h2>
                 </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <p style="color:#808285; font-size: 130%;">Jay Boisvert, 2 time Emmy Award winner in the category of graphic arts,
+                        and his hand selected team are here to assist you with your projects. Let us tactically
+                        design and deliver a better way to express your desired goals, using the most cost effective
+                        means that almost 20 years of professional experience can deliver.</p>
+                </div>
+
             </div>
+
+
         </div>
     </div>
 
@@ -120,8 +131,7 @@
 
     <div id="emmy" class="jumbotron"
         style="background-color:#0f0f0f; background-repeat: no-repeat;background-size: cover;">
-        <h1 class="display-4" style="color:white;font-weight: 700; text-align: center;"><span style="color:#f69800;">I
-                AM A 2017</span> <ins class="emmy-word">EMMY</ins><br />AWARD-WINNING DESIGNER!</h1>
+        <h1 class="display-4" style="color:white;font-weight: 700; text-align: center;"><span style="color:#f69800;">I AM A 2X</span> <ins class="emmy-word">EMMY</ins><br />AWARD-WINNING DESIGNER!</h1>
 
     </div>
 
@@ -519,16 +529,17 @@
 
 
     <div id="insta" class="top-padding" style="background-color:#0f0f0f;padding-bottom: 50px;">
-            <div class="container">
-                <h1 class="section-title" style=" color: white; padding-top: 10px;"><span style="color:#f69800;">@boisvertinc</span>
-                        ON INSTAGRAM</h1>
+        <div class="container">
+            <h1 class="section-title" style=" color: white; padding-top: 10px;"><span
+                    style="color:#f69800;">@boisvertinc</span>
+                ON INSTAGRAM</h1>
 
-              <div id="instafeed" class="row justify-content-md-center no-gutters">
-          
-              </div>
+            <div id="instafeed" class="row justify-content-md-center no-gutters">
+
             </div>
-            
         </div>
+
+    </div>
 
 
 
@@ -610,20 +621,20 @@
             }
 
 
-        // Instagram Feed Script //
-        var accessToken = '8574007890.297f400.15c9609a6aae4d819bd0186124d2b9b4';
-  $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token='+accessToken+'&callback=?',function (insta) {
-    $.each(insta.data,function (photos,src) {
-      if ( photos === 3 ) { return false; }
-      $('<div class="col-md-4">'+'<a target="_blank" href="'+src.link+'" class="post">'+
-        '<div class="image" style="background-image:url('+src.images.standard_resolution.url+');"></div>'+
-        '<ul>'+
-        
-        '<li><i class="fa fa-heart"></i> '+src.likes.count+'</li>'+
-        '<li><i class="fa fa-comment"></i> '+src.comments.count+'</li>'+
-        '</ul></a></div>').appendTo('#instafeed');
-    });
-  });
+            // Instagram Feed Script //
+            var accessToken = '8574007890.297f400.15c9609a6aae4d819bd0186124d2b9b4';
+            $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token=' + accessToken + '&callback=?', function (insta) {
+                $.each(insta.data, function (photos, src) {
+                    if (photos === 3) { return false; }
+                    $('<div class="col-12 col-md-4 col-sm-4 col-lg-4">' + '<a target="_blank" href="' + src.link + '" class="post">' +
+                        '<div class="image" style="background-image:url(' + src.images.standard_resolution.url + ');"></div>' +
+                        '<ul>' +
+
+                        '<li><i class="fa fa-heart"></i> ' + src.likes.count + '</li>' +
+                        '<li><i class="fa fa-comment"></i> ' + src.comments.count + '</li>' +
+                        '</ul></a></div>').appendTo('#instafeed');
+                });
+            });
 
 
         });

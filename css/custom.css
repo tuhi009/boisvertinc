@@ -197,7 +197,7 @@ nav{
         line-height: 1.0;
     }
     .title-2{
-        font-size: 13.5vw;
+        font-size: 6vw;
         letter-spacing: 0.2px;
         line-height: 1.0;
     }
@@ -232,7 +232,7 @@ nav{
     
 
     #heroimg .row{
-        height: 55vh;
+        height: 74vh;
     }
 
     .tools-border{
@@ -264,9 +264,6 @@ nav{
 
 
 
-    #heroimg .row{
-        height: 65vh;
-    }
 
     .title-1{
         font-size: 13vw;
@@ -312,7 +309,7 @@ nav{
         line-height: 1.0;
     }
     .title-2{
-        font-size: 74px;
+        font-size: 32px;
         
         line-height: 1.0;
     }
@@ -388,7 +385,7 @@ nav{
         line-height: 1.0;
     }
     .title-2{
-        font-size: 5em;
+        font-size: 3em;
         line-height: 1.0;
     }
     
@@ -443,7 +440,7 @@ nav{
    
 
     #heroimg .row{
-        height: 75vh;
+        height: 70vh;
     }
 
     .title-1{
@@ -451,7 +448,7 @@ nav{
         line-height: 1.0;
     }
     .title-2{
-        font-size: 6.5em;
+        font-size: 3em;
         line-height: 1.0;
     }
     
@@ -593,7 +590,7 @@ nav{
 
 #instafeed .post {
     position: relative;
-    width: 345px;
+    width: 100%;
     height: 345px;
     background: #000;
     display: block;
