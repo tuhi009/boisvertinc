@@ -106,10 +106,66 @@ nav{
 
 /*=========light box start==========*/
 
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+    }
+    .start-cover{
+        -webkit-animation: flashing-front .36s infinite forwards;
+        -moz-animation: flashing-front .36s infinite forwards;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+    /* display: none; */
+        position: fixed;
+        z-index: 100000;
+        width: 100%;
+        height: 100%;
+        background-image: url("https://images.unsplash.com/photo-1560268766-f5d7ab0a2263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+        background-size: cover;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    
+    .hovertype1{
+        font-size: 15vw;
+        line-height: 20vw;
+        letter-spacing: 10px;
+        
+        z-index: 100000;
+        position: fixed;
+        top: 50%;
+        width: 100%;
+        left: 0;
+        transform: translateY(-50%);
+        color: #000;
+        color: transparent;
+        pointer-events: none;
+        -webkit-text-stroke: .3vw #F8991D;
+        color: #F99B22;
+        text-align: center;
+    }
+    
+    .starter{
+    height:100vh;
+    width:100%;
+    cursor: pointer;
+    
+    }
 /*=========light box start==========*/
 
 
 /*========Start Main========*/
+#content{
+    background-image: url(http://boisvertinc.com/img/background/background-01.svg);
+    background-attachment: fixed;
+    background-size: cover;
+}
 .wrap{
     width: 100%;
     max-width: 1200px;
@@ -122,7 +178,7 @@ nav{
     z-index: 500;
     width: 100%;
     margin-top: 120px;
-    margin-top: 13%;
+    margin-top: 12%;
     pointer-events: none;
     color: #F8991D;
 
@@ -142,9 +198,7 @@ nav{
 }
 
 .featured {
-    /* /background-image: url(http://boisvertinc.com/img/background/background-01.svg); */
-    background-attachment: fixed;
-    background-size: cover;
+   
 
     margin-bottom: 5px;
     display: grid;
@@ -199,7 +253,7 @@ img {
     /* color: red; */
     text-align: center;
 }
-.featured:hover .hovertype {
+.teaser:hover .hovertype {
     display: block !important;
   }
   
