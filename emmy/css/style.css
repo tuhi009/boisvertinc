@@ -338,6 +338,22 @@ media query
 } */
 
 
+@media only screen and (max-width: 600px) {
+
+    .no-mobile{
+        display: none;
+    }
+
+    .index-page .teaser {
+
+        height: 20vh;
+    }
+
+    main{
+        margin-top: 65px;
+    }
+}
+
 
 @media only screen and (max-width: 992px) {
     .col-10 {
@@ -350,12 +366,12 @@ media query
     }
 
     .teaserlayout-1 .teaserno-l {
-        height: 65vh;
+        height: 60vw;
 
     }
 
     .teaserlayout-1 .teaserno-r {
-        height: 65vh;
+        height: 60vw;
     }
 
     .hovertype {
@@ -372,3 +388,4 @@ media query
     }
 
 }
+
