@@ -250,46 +250,47 @@ img {
 }
 
 .index-page .firstchild {
-    margin-top: 75px;
+    margin-top:113px;;
 }
 
 .intro {
-    position: absolute;
+    display: table-cell;
+    /* position: absolute; */
     z-index: 100;
     margin: 0;
 }
 
 .hovertype-s {
-    font-size: 15vw;
-    line-height: 15vw;
+    font-size: 20vw;
+    line-height: 20vw;
     display: block;
-    z-index: 10000;
-    margin-top: 12%;
+    z-index: 100;
+     margin-top: 2%; 
     color: #000;
     color: transparent;
     text-align: center;
     position: relative;
-
 }
 
 .index-page .intro {
-    background-color:  rgba(248, 139, 29, 0.923);
+    vertical-align: middle;
+    background-color: rgba(248, 139, 29, 0.923);
     height: inherit;
     width: 100%;
     -webkit-text-stroke: .3vw rgb(0, 0, 0) !important;
 }
 
 .index-page .teaser {
-
     overflow: hidden;
     width: 100%;
     align-self: center;
-    height: 80vh;
+    height: auto;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background: #eee0;
     width: -webkit-fill-available;
+    display: table;
 }
 
 .index-content {
@@ -346,7 +347,7 @@ media query
 
     .index-page .teaser {
 
-        height: 20vh;
+        height: 35vw;
     }
 
     main{
