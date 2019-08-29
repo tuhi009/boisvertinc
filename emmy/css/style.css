@@ -193,6 +193,10 @@ img {
     position: absolute;
     z-index: 100;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .text {
@@ -214,7 +218,7 @@ img {
     line-height: 15vw;
     display: block;
     z-index: 10000;
-    margin-top: 15%;
+  
     color: #000;
     color: transparent;
     text-align: center;
@@ -297,6 +301,7 @@ img {
 
     padding-top: 50px;
     color: #fff;
+    padding-bottom: 50px;
 }
 
 /*------------ index-page sub-page end---------------*/
@@ -375,10 +380,7 @@ media query
         height: 60vw;
     }
 
-    .hovertype {
-        margin-top: 20%;
-
-    }
+ 
 
     .hovertype-l {
         left: 0%;
