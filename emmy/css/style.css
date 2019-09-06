@@ -364,6 +364,10 @@ media query
     main{
         margin-top: 65px;
     }
+
+    .logo{
+        width: 50%;
+        }
 }
 
 
