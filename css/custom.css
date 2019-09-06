@@ -4,6 +4,7 @@
 
 
 
+
 @font-face {
     font-family: 'MyriadProCond';
     src:url('../fonts/MYRIADPRO-COND.woff2')  format('woff2'), /* Super Modern Browsers */
@@ -34,16 +35,22 @@
 
   }
 
+  @font-face{
+    font-family: 'Prototype';
+    src:url('../fonts/Prototype.ttf')  format('truetype'), /* Safari, Android, iOS */
+   
+  }
+
 p{
-    font-family: 'LeagueGothic', sans-serif;
+    font-family: 'Prototype', sans-serif;
 }
 
 h1,h3,h4,h5,h6{
-    font-family: 'LeagueGothic', sans-serif;
+    font-family: 'Prototype', sans-serif;
 }
 
 h2{
-    font-family: 'LeagueGothic', sans-serif;
+    font-family: 'Prototype', sans-serif;
 }
 
 topnav{
@@ -69,7 +76,7 @@ nav{
     text-transform: uppercase; 
     font-size: 25px; 
     font-weight: 500;
-    font-family: 'LeagueGothic', sans-serif;
+    font-family: 'Prototype', sans-serif;
 }
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link  {
     color:#f69800;
