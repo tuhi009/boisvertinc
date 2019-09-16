@@ -63,6 +63,10 @@ nav{
 }
 
 
+html {
+    scroll-behavior: smooth;
+  }
+
 
 .anchor-links:before {
     display: block;
