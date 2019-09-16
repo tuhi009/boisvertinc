@@ -64,6 +64,13 @@ nav{
 
 
 
+.anchor-links:before {
+    display: block;
+    content: "";
+    height: 106px;
+    margin: -106px 0 0;
+}
+
 
 
 .navbar-brand{
@@ -170,14 +177,14 @@ nav{
     }
 
 
-    #emmy{
+    .emmy{
         
         padding-top: 50px; 
         padding-bottom: 50px;
     }
 
 
-    #emmy .display-4{
+    .emmy .display-4{
         font-size: 2.5rem;
     }
 
@@ -251,7 +258,7 @@ nav{
         border-width: 50%;
     }
 
-    #contact{
+    .contact{
         /* padding: 7%; */
         padding-top: 30%;
         /* padding-left: 22%; 
@@ -290,7 +297,7 @@ nav{
         font-size: 7vw;
     }
 
-    #emmy{
+    .emmy{
         
         padding-top: 100px; 
         padding-bottom: 100px;
@@ -377,7 +384,7 @@ nav{
     }
 
 
-    #emmy{
+    .emmy{
         
         padding-top: 200px; 
         padding-bottom: 200px;
@@ -426,7 +433,7 @@ nav{
        
     }
 
-    #contact{
+    .contact{
         /* padding: 7%; */
         padding-top: 7%;
         padding-left: 22%; 
