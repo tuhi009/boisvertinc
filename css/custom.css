@@ -71,8 +71,8 @@ html {
 .anchor-links:before {
     display: block;
     content: "";
-    height: 106px;
-    margin: -106px 0 0;
+    height: 115px;
+    margin: -115px 0 0;
 }
 
 
@@ -172,6 +172,13 @@ html {
     }
 
     
+    .anchor-links:before {
+        display: block;
+        content: "";
+        height: 111px;
+        margin: -111px 0 0;
+    }
+
     .top-padding{
         padding-top: 50px;
     }
