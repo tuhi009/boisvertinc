@@ -73,6 +73,7 @@ html {
     content: "";
     height: 115px;
     margin: -115px 0 0;
+    
 }
 
 
@@ -497,6 +498,15 @@ html {
 }
 
 
+/* For Firefox Only */
+@supports (-moz-appearance:none) {
+    .anchor-links {
+
+        padding-top: 98px;
+        margin-top: -98px;
+    
+    }
+}
 
 
 /* HOver effets */
