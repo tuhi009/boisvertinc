@@ -65,7 +65,7 @@ nav{
 
 html {
     scroll-behavior: smooth;
-    overflow: hidden;
+    
   }
 
 
@@ -510,6 +510,11 @@ html {
   
 
     @media only screen and (max-width: 600px) {
+#heroimg{
+    overflow-y: hidden;
+}
+        
+
  #heroimg p{
             font-size: 3.3vw;
         }
