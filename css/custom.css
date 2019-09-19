@@ -506,6 +506,23 @@ html {
         margin-top: -98px;
     
     }
+  
+
+    @media only screen and (max-width: 600px) {
+
+        #heroimg{
+            height:-moz-fit-content;;
+        }
+    
+        #heroimg p{
+            padding-bottom:50px;
+        }
+    
+
+    }
+
+
+    
 }
 
 
