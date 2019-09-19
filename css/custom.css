@@ -500,20 +500,17 @@ html {
 
 /* For Firefox Only */
 @supports (-moz-appearance:none) {
-    /* .anchor-links {
+    .anchor-links {
 
         padding-top: 98px;
         margin-top: -98px;
     
-    } */
+    }
   
 
     @media only screen and (max-width: 600px) {
-
-     
-    
-        #heroimg p{
-            font-size: 3.0vw;
+ #heroimg p{
+            font-size: 3.3vw;
         }
     
 
