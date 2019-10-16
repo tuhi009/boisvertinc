@@ -136,17 +136,16 @@
     </div>
 
     <span id="emmy" class="anchor-links"></span>
-    
+
     <img src="img/border.svg" width="100%" class="img-fluid borderimg" alt="border">
 
-    <div  class="jumbotron emmy"
-        style="background-color:#0f0f0f; background-repeat: no-repeat;background-size: cover;">
+    <div class="jumbotron emmy" style="background-color:#0f0f0f; background-repeat: no-repeat;background-size: cover;">
         <h1 class="display-4" style="color:white;font-weight: 700; text-align: center;"><span style="color:#f69800;">I
                 AM A 2X</span> <a href="/emmy"><ins class="emmy-word">EMMY</ins></a><br />AWARD-WINNING DESIGNER!</h1>
 
     </div>
-    
-    
+
+
 
     <img src="img/border.svg" width="100%" class="img-fluid borderimg" alt="border">
 
@@ -156,32 +155,29 @@
                     ME</span><br />WHO I AM TODAY!</h1>
             <div class="row " style="text-align: center;">
                 <div class="col-sm-12 col-md-4 pb-4">
-                    <img src="img/clients/comcast.svg" class="img-fluid " alt="Responsive image"
-                        width="265" height="150">
+                    <img src="img/clients/comcast.svg" class="img-fluid " alt="Responsive image" width="265"
+                        height="150">
                 </div>
                 <div class="col-sm-12 col-md-4 pb-4">
                     <img src="img/clients/disney.svg" class="img-fluid " alt="Responsive image" width="265"
                         height="150">
                 </div>
                 <div class="col-sm-12 col-md-4 pb-4">
-                    <img src="img/clients/fios.svg" class="img-fluid " alt="Responsive image" width="265"
-                        height="150">
+                    <img src="img/clients/fios.svg" class="img-fluid " alt="Responsive image" width="265" height="150">
                 </div>
 
             </div>
 
             <div class="row row-two" style="text-align: center;">
                 <div class="col-sm-12 col-md-4 pb-4">
-                    <img src="img/clients/honda.svg" class="img-fluid " alt="Responsive image" width="265"
-                        height="150">
+                    <img src="img/clients/honda.svg" class="img-fluid " alt="Responsive image" width="265" height="150">
                 </div>
                 <div class="col-sm-12 col-md-4 pb-4">
-                    <img src="img/clients/lexus.svg" class="img-fluid " alt="Responsive image" width="265"
-                        height="150">
+                    <img src="img/clients/lexus.svg" class="img-fluid " alt="Responsive image" width="265" height="150">
                 </div>
                 <div class="col-sm-12 col-md-4 pb-4">
-                    <img src="img/clients/mcdonalds.svg" class="img-fluid " alt="Responsive image"
-                        width="265" height="150">
+                    <img src="img/clients/mcdonalds.svg" class="img-fluid " alt="Responsive image" width="265"
+                        height="150">
                 </div>
             </div>
         </div>
@@ -315,8 +311,7 @@
 
             <div class="col-sm-12 col-md-4 col-lg-4" style="padding-bottom: 15px;">
                 <div class="hovereffect">
-                    <img src="img/movies/MOVIE04.jpg" class="img-fluid "
-                        alt="Mission Impossible: Rogue Nation">
+                    <img src="img/movies/MOVIE04.jpg" class="img-fluid " alt="Mission Impossible: Rogue Nation">
                     <div class="overlay">
                         <h2><b>Mission Impossible: Rogue Nation</b>
                             <br />
@@ -334,8 +329,7 @@
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4" style="padding-bottom: 15px;">
                 <div class="hovereffect">
-                    <img src="img/movies/MOVIE05.jpg" class="img-fluid "
-                        alt="Hunger Games - Mocking Jay 2">
+                    <img src="img/movies/MOVIE05.jpg" class="img-fluid " alt="Hunger Games - Mocking Jay 2">
                     <div class="overlay">
                         <h2><b>Hunger Games - Mocking Jay 2</b>
                             <br />
@@ -527,12 +521,12 @@
         </div>
     </div>
 
-    
+
     <span id="contact" class="anchor-links"></span>
 
     <img src="img/border.svg" width="100%" class="img-fluid borderimg" alt="border">
 
-    <div  class="jumbotron contact"
+    <div class="jumbotron contact"
         style="margin-bottom: 0px;background-color:#0f0f0f; background-repeat: no-repeat;background-size: cover; border-radius: 0px">
         <h1 class="display-5" style="color:#f69800;font-weight: 650; text-align: center;">I AM BASED IN WASHINGTON
             DC.<br />I FREELANCE 24/7,
@@ -544,14 +538,14 @@
     </div>
 
 
-    
     <img src="img/border.svg" width="100%" class="img-fluid borderimg" alt="border">
 
 
     <div id="insta" class="top-padding" style="background-color:#0f0f0f;padding-bottom: 50px;">
         <div class="container">
-            <h1 class="section-title" style=" color: white; padding-top: 10px;"><span
-                    style="color:#f69800;">@boisvertinc</span>
+            <h1 class="section-title" style=" color: white; padding-top: 10px;"><a target="_blank"
+                    style="color:#f69800; text-decoration: none;"
+                    href="https://www.instagram.com/boisvertinc/">@boisvertinc</a>
                 ON INSTAGRAM</h1>
 
             <div id="instafeed" class="row justify-content-md-center no-gutters">
@@ -586,11 +580,11 @@
 
 
 
-    <script src="js/jquery-3.4.1.min.js" ></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
-    
+
     <script>
         $('.navbar-nav>li>a').on('click', function () {
             $('.navbar-collapse').collapse('hide');
@@ -642,18 +636,51 @@
 
 
             // Instagram Feed Script //
-            var accessToken = '8574007890.297f400.15c9609a6aae4d819bd0186124d2b9b4';
-            $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token=' + accessToken + '&callback=?', function (insta) {
-                $.each(insta.data, function (photos, src) {
-                    if (photos === 3) { return false; }
-                    $('<div class="col-12 col-md-4 col-sm-4 col-lg-4">' + '<a target="_blank" href="' + src.link + '" class="post">' +
-                        '<div class="image" style="background-image:url(' + src.images.standard_resolution.url + ');"></div>' +
-                        '<ul>' +
 
-                        '<li><i class="fa fa-heart"></i> ' + src.likes.count + '</li>' +
-                        '<li><i class="fa fa-comment"></i> ' + src.comments.count + '</li>' +
-                        '</ul></a></div>').appendTo('#instafeed');
-                });
+
+            /*  function nFormatter(num){
+      if(num >= 1000000000){
+       return (num/1000000000).toFixed(1).replace(/\.0$/,'') + 'G';
+      }
+      if(num >= 1000000){
+        return (num/1000000).toFixed(1).replace(/\.0$/,'') + 'M';
+      }
+       if(num >= 1000){
+         return (num/1000).toFixed(1).replace(/\.0$/,'') + 'K';
+       }
+        return num;
+      }*/
+
+
+            $.ajax({
+                url: "https://www.instagram.com/boisvertinc?__a=1",
+                type: 'get',
+                success: function (response) {
+                    /*$(".profile-pic").attr('src',response.graphql.user.profile_pic_url);
+                    $(".name").html(response.graphql.user.full_name);
+                    $(".biography").html(response.graphql.user.biography);
+                    $(".username").html(response.graphql.user.username);
+                    $(".number-of-posts").html(response.graphql.user.edge_owner_to_timeline_media.count);
+                    $(".followers").html(nFormatter(response.graphql.user.edge_followed_by.count));
+                    $(".following").html(nFormatter(response.graphql.user.edge_follow.count));*/
+                    posts = response.graphql.user.edge_owner_to_timeline_media.edges;
+                    posts_html = '';
+                    for (var i = 0; i < 3; i++) {
+                        url = posts[i].node.display_url;
+                        likes = posts[i].node.edge_liked_by.count;
+                        comments = posts[i].node.edge_media_to_comment.count;
+
+                        posts_html += '<div class="col-md-4">' + '<div class="post">' +
+                            '<div class="image" style="background-image:url(' + url + ');"></div>' +
+                            '<ul>' +
+                            '<li><i class="fa fa-heart"></i> ' + likes + '</li>' +
+                            '<li><i class="fa fa-comment"></i> ' + comments + '</li>' +
+                            '</ul></div></div>';
+                        ;
+
+                    }
+                    $("#instafeed").html(posts_html);
+                }
             });
 
 
@@ -661,6 +688,9 @@
 
 
     </script>
+
+
+
 
 
 
